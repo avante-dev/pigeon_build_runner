@@ -156,7 +156,6 @@ class PigeonBuildHandler {
     final pigeonOptions = PigeonOptions(
       input: dartInput,
       copyrightHeader: copyrightHeader,
-      oneLanguage: oneLanguage,
       debugGenerators: debugGenerators,
       dartOut: dartOut,
       dartTestOut: dartTestOut,
