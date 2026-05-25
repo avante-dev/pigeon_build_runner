@@ -1,22 +1,21 @@
 name: pigeon_build_runner
 description: Seamlessly integrate pigeon with build_runner for efficient code generation and streamlined development.
-homepage: https://github.com/rotorgames/pigeon_build_runner
-repository: https://github.com/rotorgames/pigeon_build_runner
-issue_tracker: https://github.com/rotorgames/pigeon_build_runner/issues
-documentation: https://github.com/rotorgames/pigeon_build_runner/blob/main/README.md
-version: 2.0.0
+publish_to: none
+version: 2.0.1
 
 environment:
-  sdk: '>=2.18.4 <4.0.0'
+  sdk: '>=3.11.5 <4.0.0'
 
 dependencies:
-  pigeon_build_config: ^1.1.0
-  pigeon_build_core: ^2.0.0
-  build: ^2.4.0
-  pigeon: ">=24.0.0"
+  build: ^4.0.6
+  pigeon: ">=26.0.0"
   scratch_space: ^1.0.0
   path: ^1.8.3
+  pigeon_build_core:
+    path: ../pigeon_build_core
+  pigeon_build_config:
+    path: ../pigeon_build_config
 
 dev_dependencies:
   lints: ^2.0.0
-  test: ^1.21.0
+  test: ^1.31.0
