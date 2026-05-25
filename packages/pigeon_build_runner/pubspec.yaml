@@ -14,18 +14,10 @@ dependencies:
   pigeon: ">=26.0.0"
   scratch_space: ^1.0.0
   path: ^1.8.3
-
-dependency_overrides:
-    pigeon_build_config:
-      git:
-        url: https://github.com/avante-dev/pigeon_build_runner.git
-        ref: update
-        path: packages/pigeon_build_config/
-    pigeon_build_core:
-      git:
-        url: https://github.com/avante-dev/pigeon_build_runner.git
-        ref: update
-        path: packages/pigeon_build_core/
+  pigeon_build_core:
+    path: ../pigeon_build_core
+  pigeon_build_config:
+    path: ../pigeon_build_config
 
 dev_dependencies:
   lints: ^2.0.0
